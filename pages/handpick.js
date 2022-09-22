@@ -99,70 +99,126 @@ export default function () {
             
           
                 emancipation.className = "ml-370 mt-43 transition-all  ease-in  delay-500 duration-[2000ms] opacity-100"
-                blue1.className = 'absolute left-[221px] top-[30px]   transition-all ease-in  translate-y-[100px] delay-1000 duration-[300ms] opacity-0'
-                green.className = "relative left-[1600px] transition-all -translate-x-[660px]  ease-in   delay-150 duration-[800ms]"
-
-            }
-
-            if (y_range > -500) {
-                //  blue1.className = 'opacity-0  absolute left-[221px] -top-[30px] z-30 transition-all ease-in  translate-y-[200px] delay-1000 duration-[300ms]'
+                // blue1.className = 'absolute left-[221px] top-[30px]   transition-all ease-in  translate-y-[100px] delay-1000 duration-[300ms] opacity-100'
                 setTimeout(function() {
-                imggreen.className = "relative left-[1800px] top-[80px] transition-all translate-x-[100px]  ease-in    duration-[500ms] opacity-100"
-                },3000)
-            }
-        
-            if (y_range > -730) {
-                grey.className = 'relative  -left-[545px] -top-[100px]  transition-all ease-in  -translate-y-[10px]  translate-x-[920px]  delay-1000 duration-[1500ms]'
-                imggreen.className = "relative left-[1800px] top-[80px] transition-all translate-x-[400px]  ease-in   delay-150 duration-[100ms] opacity-100"
-
-            }
-            if (y_range > -830) {
-                setTimeout(function() {
-                imggrey.className = 'absolute -left-[353px] top-[0px]  transition-all ease-in  translate-y-[90px]  -translate-x-[10px]  delay-300 duration-[800ms]'
+                green.className = "relative left-[1600px]  transition-all -translate-x-[660px] -translate-y-[10px]  ease-in   delay-150 duration-[800ms]"
                 },1000)
             }
-            if (y_range > -930) {
-                three_hands.className = 'relative left-[630px] -top-[75px] transition-all ease-in  -translate-y-[10px] delay-1000 duration-[1500ms]'
+            if (y_range > -310) {
                 setTimeout(function() {
-                    imggrey.className = 'absolute -left-[353px] top-[0px]  transition-all ease-in  translate-y-[90px]  -translate-x-[400px]  delay-300 duration-[800ms]'
-                    },3000)
-                // setTimeout(function() {
-                //     imggrey.className = 'absolute -left-[353px] top-[0px]  transition-all ease-in  translate-y-[30px]  -translate-x-[10px]  delay-300 duration-[2000ms]'
-                //     },3000)
+                imggreen.className = "relative left-[1800px] top-[80px] transition-all translate-x-[400px]  ease-in   delay-1000 duration-[100ms] opacity-100"
+                },1000)
+                
             }
-            if (y_range > -1030) {
+            if (y_range > -313) {
+               
+                imggreen.className = "relative left-[1800px] top-[80px] transition-all translate-x-[0px]   ease-in   delay-500 duration-[100ms] opacity-100"
+               
+            }
+           if (y_range > -320) {
                 setTimeout(function() {
-                three_hands_color.className = 'absolute transition-all ease-in  -translate-x-[1800px]  delay-1000 duration-[1500ms]'
+                blue1.className = 'absolute left-[221px] top-[30px]   transition-all ease-in    duration-[100ms] opacity-100'
+                 },2000)
+                
+                 // imggreen.className = "relative left-[1800px] top-[80px] transition-all translate-x-[400px]  ease-in   delay-150 duration-[100ms] opacity-100"
+                
+                 green.className = "relative left-[1600px] transition-all translate-x-[660px]  ease-in   delay-1000 duration-[1800ms]"
+              
+                // setTimeout(function() {
+                // imggreen.className = "relative left-[1800px] top-[80px] transition-all translate-x-[7px]  ease-in    duration-[500ms] opacity-100"
+                // },3000)
+            }
+           
+            if (y_range > -510) {
+                blue1.className = 'absolute left-[221px] top-[100px]   transition-all ease-in   duration-[100ms] opacity-100'
+             }
+
+            if (y_range > -730) {
+                blue1.className = 'absolute left-[221px] top-[150px]   transition-all ease-in    duration-[100ms] opacity-100'
+                setTimeout(function() {
+                grey.className = 'relative  -left-[545px] -top-[100px]  transition-all ease-in  -translate-y-[10px]  translate-x-[920px]  delay-100 duration-[100ms]'
+                // imggreen.className = "relative left-[1800px] top-[80px] transition-all translate-x-[400px]  ease-in   delay-150 duration-[100ms] opacity-100"
                 },3000)
+            }
+            if (y_range > -830) {
+                blue1.className = 'absolute left-[221px] top-[200px] -z-30  transition-all ease-in    duration-[100ms] opacity-100'
+                grey.className = 'relative  -left-[545px] -top-[100px]  transition-all ease-in    -translate-x-[1000px]  delay-300 duration-[1000ms]'
+
+                // setTimeout(function() {
+                // imggrey.className = 'absolute -left-[353px] top-[0px]  transition-all ease-in  -translate-x-[600px]       delay-300 duration-[800ms] opacity-100'
+                // },2000)
+            }
+            if (y_range > -930) {
+                // setTimeout(function() {
+                // three_hands.className = 'relative left-[630px] -top-[75px] transition-all ease-in  translate-x-[750px] delay-150 duration-[1000ms]'
+                // },3000)
+                // setTimeout(function() {
+                    // imggrey.className = 'absolute -left-[353px] top-[0px] opacity-100 transition-all ease-in  translate-y-[0px]    delay-300 duration-[800ms] opacity-100'
+                //     },1000)
+              
+            }
+            if (y_range > -930) {
+            
+                three_hands.className = 'relative left-[630px] -top-[75px] transition-all ease-in  translate-y-[10px] delay-100 duration-[100ms]'
+
+            }
+            if (y_range > -931) {
+              
+                   
+
+                three_hands_color.className = 'absolute transition-all ease-in  translate-x-[480px]   translate-y-[80px]  delay-300 duration-[500ms] opacity-0'
+               
+                
               
             }
             if (y_range > -1130) {
+                    // three_hands.className = 'relative left-[630px] -top-[75px] transition-all ease-in  translate-y-[10px] delay-1000 duration-[1500ms]'
+
+                    // three_hands_color.className = 'absolute transition-all ease-in   translate-y-[5px]  delay-0 duration-[100ms] opacity-0'
+                  
                 orange_hands.className = 'relative left-[368px] top-[600px]  transition-all ease-in  -translate-y-[635px] delay-1000 duration-[1500ms]'
             }
             if (y_range > -1240) {
+
                 setTimeout(function() {
-                orange_left.className = 'absolute -left-[490px] -top-[60px]  transition-all ease-in  -translate-x-[635px] delay-1000 duration-[1500ms]'
-                },3000)
+                    orange_left.className = 'absolute -left-[490px] -top-[60px]  transition-all ease-in -translate-x-[500px]    duration-[500ms]'
+                },3000) 
+                setTimeout(function() {
+                    orange_right.className = 'absolute left-[540px] -top-[60px]   transition-all ease-in  translate-x-[500px]    duration-[500ms]'
+                },3000) 
+                setTimeout(function() {
+                    but_theyre.className = 'relative left-[370px]  transition-all ease-in opacity-100'
+                    },3000)
+             
+               
             }
             if (y_range > -1360) {
-                setTimeout(function() {
-                orange_right.className = 'absolute left-[540px] -top-[60px]  transition-all ease-in  translate-x-[635px] delay-1000 duration-[1500ms]'
-                },3000)
+               
+                orange_left.className = 'absolute -left-[490px] -top-[60px]  transition-all ease-in  translate-y-[0px] delay-150 duration-[800ms]'
+                orange_right.className = 'absolute left-[540px] -top-[60px]  transition-all ease-in  translate-y-[0px] delay-150 duration-[800ms]'
+                
+                    but_theyre.className = 'relative left-[370px]  transition-all ease-in opacity-25'
+                    
+              
             }
             if (y_range > -1480) {
-                setTimeout(function() {
-                but_theyre.className = 'relative left-[370px]  transition-all ease-in opacity-100'
-                },3000)
+             
             }
             if (y_range > -1580) {
-                scissor_cut.className = 'absolute -left-[800px] transition-all ease-in  translate-x-full delay-1000 duration-[500ms]'
+                setTimeout(function() {  
+                scissor_cut.className = 'absolute -left-[800px] transition-all ease-in  translate-x-1/4  duration-[500ms]'
+            },3000)
             }
             if (y_range > -1670) {
+                setTimeout(function() { 
+                scissor_cut.className = 'absolute -left-[800px] transition-all ease-in  translate-x-full  duration-[500ms]'
+                },2000)
                 setTimeout(function() {  
                 true_img.className = "ml-370 mt-20"
-                },2000)
+                },3000)
             }
             if (y_range > -1780) {
+             
                 setTimeout(function() {  
                 stone_1.className = " hidden"
                 },1000)
@@ -181,64 +237,110 @@ export default function () {
               
             }
             if (y_range > -1770) {
-                chain.className = "relative left-[1700px] top-[100px] -translate-x-full delay-1000 duration-[2000ms]"
+
+                
+                    stone_1.className = "absolute"
+                   
+                  
+                    stone_2.className = "absolute"
+               
+                  
+                    stone_3.className = "absolute"
+                 
+                   
+                    stone_4.className = "absolute"
+             
+                
+                    stone_5.className = "absolute"
+                  
+                setTimeout(function() { 
+                chain.className = "relative left-[1700px] top-[100px] -translate-x-full  duration-[2000ms]"
+                },3000)
             }
             if (y_range > -1870) {
-                setTimeout(function() { 
-                chain_disappear.className = "absolute -left-[1900px] -translate-x-full delay-1000 duration-[2000ms]"
-                },5000)
+               
+                chain.className = "relative left-[1900px] top-[100px] -translate-x-1/2 translate-y-[0px]    duration-[2000ms]"
+                
+              
             }
+
             if (y_range > -1970) {
-                pointing_yellow.className = "relative top-[300px] left-[1800px] -translate-x-[850px] delay-1000 duration-[2000ms]"
+                  
+                // setTimeout(function() { 
+                //     chain_disappear.className = "absolute -left-[1900px] -translate-x-full delay-1000 duration-[2000ms]"
+                //     },5000)
+                setTimeout(function() {
+                pointing_yellow.className = "relative top-[300px] left-[1800px] transition-all ease-in -translate-x-[850px] delay-500 duration-[1000ms]"
+                },1000)
             }
             if (y_range > -2070) {
                 setTimeout(function() {
-                pointing_yellow_direction.className = "absolute translate-x-[800px] delay-1000 duration-[2000ms]"
-            },4000)
+                pointing_yellow_direction.className = "absolute transition-all ease-in translate-x-[500px] delay-500 duration-[1000ms]"
+                },3000)
             }
-            if (y_range > -2100) {
+            if (y_range > -2080) {
+               
+                     pointing_yellow_direction.className = "absolute translate-x-[0px] delay-500 duration-[100ms]"
+                
                 setTimeout(function() {
                     thats_why.className = "ml-370 mt-450 opacity-100"
             },3000)
             }
             if (y_range > -2200) {
+                pointing_yellow.className = "relative top-[300px] left-[1800px] translate-x-[850px] delay-500 duration-[1000ms]"
                 orange_right_2.className = "relative top-[50px] left-[1800px] -translate-x-[1390px] delay-1000 duration-[2000ms]"
             }
+
             if (y_range > -2250) {
                 setTimeout(function() {
-                orange_right_2_direction.className = "absolute -top-[30px] left-[440px] translate-x-[600px] delay-1000 duration-[2000ms]"
+                orange_right_2_direction.className = "absolute -top-[30px] left-[440px] translate-x-[600px] delay-300 duration-[100ms]"
                 },3000)
             }
             if (y_range > -2350) {
-                setTimeout(function() {
-                orange_right_2_direction.className = "absolute -top-[30px] left-[440px] translate-x-[600px] delay-1000 duration-[2000ms]"
-                },3000)
+                
+                orange_right_2_direction.className = "absolute -top-[30px] left-[440px] translate-x-[0px] delay-300 duration-[100ms]"
+              
             }
             if (y_range > -2450) {
                 setTimeout(function() {
-                    it_is_not.className = "mt-[200px] ml-[370px] opacity-100"
-                },3000)
+                    it_is_not.className = "mt-[200px] ml-[370px] opacity-25"
+                },6000)
             }
             if (y_range > -2550) {
+               
+                it_is_not.className = "mt-[200px] ml-[370px] opacity-100"
+
                 green_palm.className = "relative left-[1800px] top-[70px] -translate-x-[1420px] delay-1000 duration-[2000ms]"
             }
             if (y_range > -2550) {
                  setTimeout(function() {
-                 green_palm_direction.className = "absolute left-[200px] top-[0px] translate-y-[20px] opacity-0 delay-1000 duration-[2000ms]"
+                 green_palm_direction.className = "absolute left-[200px] top-[0px] translate-y-[100px] opacity-0 delay-100 duration-[100ms]"
             },3000)
             }
             if (y_range > -2560) {
+                green_palm_direction.className = "absolute left-[200px] top-[0px] translate-y-[0px] opacity-100 delay-100 duration-[100ms]"
+
                  setTimeout(function() {
-                    to_earn_opa.className = "absolute left-[373px] top-[150px] opacity-100"
+                    to_earn_opa.className = "absolute left-[373px] top-[150px] opacity-0"
             },3000)
             }
             if (y_range > -2561) {
-                second_yellow.className = "relative -left-[400px] top-[240px] transition-all translate-x-[1000px] delay-1000 duration-[2000ms]"
+               
+                    to_earn_opa.className = "absolute left-[373px] top-[150px] opacity-100"
+         
+                second_yellow.className = "relative -left-[400px] top-[240px] transition-all translate-x-[1000px] delay-0 duration-[100ms]"
             }
             if (y_range > -2568) {
                 setTimeout(function() {
-                second_yellow_direction.className = "absolute -left-[910px] transition-all -translate-x-[620px] delay-1000 duration-[2000ms]"
+                second_yellow_direction.className = "absolute -left-[910px] transition-all -translate-x-[620px] delay-0 duration-[100ms]"
             },3000)
+            }
+        
+       
+            if (y_range > -2568) {
+               
+                second_yellow_direction.className = "absolute -left-[910px] transition-all duration-[200ms]"
+         
             }
                 
            
@@ -346,7 +448,7 @@ export default function () {
                     <Image src="/hand_pick/as_far_back.png" width="445px" height="68px" />
 
                     <div className="absolute left-[221px] top-[30px]" id="blue1">
-                        <Image src="/hand_pick/blue 1.png" width="384px" height="587px" />
+                        <Image src="/hand_pick/blue 1.png" width="484px" height="887px" />
                     </div>
                 </div>
             </div>
@@ -486,7 +588,7 @@ export default function () {
                     </div>
 
                     <div className="relative">
-                    <div className='absolute left-[373px] top-[150px] opacity-25' id="to_earn_opa">
+                    <div className='absolute left-[373px] top-[150px] ' id="to_earn_opa">
                     <Image src="/hand_pick/to_earn.png" width="606px" height="47px"/>
                     </div>
                     </div>
