@@ -59,7 +59,7 @@ export default function transition() {
                         <span className="w-300 h-0 rounded-br-3xl bg-blue-thick absolute top-0 left-0 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1"></span>
                         <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-blue z-10">
                         {/* <Image src="/deploy-icon.svg" width="78" height="78" alt=""/> */}
-                        <AcademicCapIcon className="ml-100 h-12 w-12 text-white ml-20 mb-3" />
+                        <AcademicCapIcon className="ml-114 h-12 w-12 text-white  mb-3" />
                         <p className="text-center text-lg mb-6 font-bold text-white">Best Dev Experience with SDK</p>
                         <p className="w-288 mb-12 text-center text-lg text-white font-normal">Dozens of connectors built with SDK for Singer and a robust community.</p>
                         </span>
@@ -71,7 +71,7 @@ export default function transition() {
                         <span className="w-300 h-0 rounded-br-3xl bg-blue-thick absolute top-0 -left-1 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1"></span>
                         <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-blue z-10">
                         {/* <Image src="/deploy-icon.svg" width="78" height="78" alt=""/> */}
-                        <CogIcon  className="ml-114 h-12 w-12 text-white ml-18 mb-3" />
+                        <CogIcon  className="ml-114 h-12 w-12 text-white  mb-3" />
                         <p className="text-center ml-1 text-lg mb-6 font-bold text-white">DataOps Out of the Box</p>
                         <p className="w-288 mb-12 text-center text-lg text-white font-normal">Version-controlled configuration and software engineering best practices built in.</p>
                         </span>
