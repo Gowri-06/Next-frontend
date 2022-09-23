@@ -141,7 +141,7 @@ export default function () {
                 },3000)
             }
             if (y_range > -830) {
-                blue1.className = 'absolute left-[221px] top-[200px] -z-30  transition-all ease-in    duration-[100ms] opacity-100'
+                blue1.className = 'absolute left-[221px] top-[200px] -z-30  transition-all ease-in    duration-[100ms] opacity-0'
                 grey.className = 'relative  -left-[545px] -top-[100px]  transition-all ease-in    -translate-x-[1000px]  delay-300 duration-[1000ms]'
 
                 // setTimeout(function() {
@@ -194,8 +194,8 @@ export default function () {
             }
             if (y_range > -1360) {
                
-                orange_left.className = 'absolute -left-[490px] -top-[60px]  transition-all ease-in  translate-y-[0px] delay-150 duration-[800ms]'
-                orange_right.className = 'absolute left-[540px] -top-[60px]  transition-all ease-in  translate-y-[0px] delay-150 duration-[800ms]'
+                orange_left.className = 'absolute -left-[490px] -top-[60px]  transition-all ease-in  translate-y-[0px] delay-150 duration-[500ms]'
+                orange_right.className = 'absolute left-[540px] -top-[60px]  transition-all ease-in  translate-y-[0px] delay-150 duration-[500ms]'
                 
                     but_theyre.className = 'relative left-[370px]  transition-all ease-in opacity-25'
                     
@@ -288,19 +288,34 @@ export default function () {
             }
             if (y_range > -2200) {
                 pointing_yellow.className = "relative top-[300px] left-[1800px] translate-x-[850px] delay-500 duration-[1000ms]"
-                orange_right_2.className = "relative top-[50px] left-[1800px] -translate-x-[1390px] delay-1000 duration-[2000ms]"
+                setTimeout(function() {
+                    orange_right_2.className = "relative top-[50px] left-[1800px] -translate-x-[400px] delay-100 duration-[800ms]"
+                },1000)
             }
+            // if (y_range > -2205) {
+            //     orange_right_2.className = "relative top-[50px] left-[1800px] -translate-x-[1390px] delay-100 duration-[800ms]"
 
+            // }
             if (y_range > -2250) {
+
                 setTimeout(function() {
                 orange_right_2_direction.className = "absolute -top-[30px] left-[440px] translate-x-[600px] delay-300 duration-[100ms]"
-                },3000)
-            }
-            if (y_range > -2350) {
-                
-                orange_right_2_direction.className = "absolute -top-[30px] left-[440px] translate-x-[0px] delay-300 duration-[100ms]"
+                },1000)
               
             }
+            if (y_range > -2350) {
+              
+                orange_right_2_direction.className = "absolute -top-[30px] left-[440px] translate-x-[0px] translate-y-[0px] delay-300 duration-[1000ms]"
+                
+            }
+
+            if (y_range > -2350) {
+             
+                    orange_right_2.className = "relative top-[50px] left-[1800px] -translate-x-[1390px] delay-100 duration-[800ms]"
+            }
+
+
+           
             if (y_range > -2450) {
                 setTimeout(function() {
                     it_is_not.className = "mt-[200px] ml-[370px] opacity-25"
@@ -309,16 +324,30 @@ export default function () {
             if (y_range > -2550) {
                
                 it_is_not.className = "mt-[200px] ml-[370px] opacity-100"
+                setTimeout(function() {
+                green_palm.className = "relative left-[1800px] top-[60px] -translate-x-[1420px]   delay-1000 duration-[1000ms]"
+                },3000)
+            }
+            if (y_range > -2552) {
+                setTimeout(function() {
+                green_palm_direction.className = "absolute left-[200px] top-[60px] translate-x-[800px] opacity-100 delay-100 duration-[1000ms]"
+           },3000)
+           }
 
-                green_palm.className = "relative left-[1800px] top-[70px] -translate-x-[1420px] delay-1000 duration-[2000ms]"
+
+           if (y_range > -2554) {
+            green_palm_direction.className = "absolute left-[200px] top-[60px] translate-x-[0px] opacity-100 delay-100 duration-[500ms]"
+
             }
-            if (y_range > -2550) {
-                 setTimeout(function() {
-                 green_palm_direction.className = "absolute left-[200px] top-[0px] translate-y-[100px] opacity-0 delay-100 duration-[100ms]"
-            },3000)
+            
+            if (y_range > -2556) {
+               
+            green_palm.className = "relative left-[1800px] top-[60px]  translate-x-[1000px]  opacity-100 delay-1000 duration-[1000ms]"
             }
+           
+            // }
             if (y_range > -2560) {
-                green_palm_direction.className = "absolute left-[200px] top-[0px] translate-y-[0px] opacity-100 delay-100 duration-[100ms]"
+                // green_palm_direction.className = "absolute left-[200px] top-[0px] translate-y-[0px] opacity-100 delay-100 duration-[100ms]"
 
                  setTimeout(function() {
                     to_earn_opa.className = "absolute left-[373px] top-[150px] opacity-0"
@@ -327,19 +356,27 @@ export default function () {
             if (y_range > -2561) {
                
                     to_earn_opa.className = "absolute left-[373px] top-[150px] opacity-100"
-         
-                second_yellow.className = "relative -left-[400px] top-[240px] transition-all translate-x-[1000px] delay-0 duration-[100ms]"
+                setTimeout(function() {
+                second_yellow.className = "relative -left-[400px] top-[240px] transition-all translate-x-[1000px] delay-0 duration-[1000ms]"
+               },3000)
             }
             if (y_range > -2568) {
                 setTimeout(function() {
-                second_yellow_direction.className = "absolute -left-[910px] transition-all -translate-x-[620px] delay-0 duration-[100ms]"
-            },3000)
+                second_yellow_direction.className = "absolute -left-[910px] transition-all -translate-x-[620px] delay-100 duration-[700ms]"
+            },1000)
             }
         
        
             if (y_range > -2568) {
                
-                second_yellow_direction.className = "absolute -left-[910px] transition-all duration-[200ms]"
+                second_yellow_direction.className = "absolute -left-[910px] transition-all translate-x-[0px] duration-[1000ms]"
+         
+            }
+
+
+            if (y_range > -2568) {
+               
+                second_yellow.className = "relative -left-[400px] top-[240px] transition-all -translate-x-[800px] delay-0 duration-[1000ms]"
          
             }
                 
