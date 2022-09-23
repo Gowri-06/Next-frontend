@@ -101,13 +101,13 @@ export default function imageflow() {
         })
     }, [])
     return (
-        <div>
-            <div clasname="fixed z-50  bg-zinc-600">
+        <div  className="bg-black">
+            <div clasname="fixed z-50 ">
             <div className='w-full h-50'>
             </div>
             <div className='-mt-10 ml-6'>
-            <Image className="rounded-full" src="/logo.jpg" width="30" height="30" />
-            <p className="text-black text-medium ml-10 -mt-6">Stryds</p>
+            <Image className="rounded-full" src="/Stryds-Logo-Gradient.svg" width="80" height="80" />
+            <p className="text-white text-medium ml-10 -mt-6"></p>
             </div> 
             </div>
             {/* 

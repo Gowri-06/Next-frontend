@@ -118,7 +118,7 @@ export default function () {
            if (y_range > -320) {
                 setTimeout(function() {
                 blue1.className = 'absolute left-[221px] top-[30px]   transition-all ease-in    duration-[100ms] opacity-100'
-                 },2000)
+                 },3000)
                 
                  // imggreen.className = "relative left-[1800px] top-[80px] transition-all translate-x-[400px]  ease-in   delay-150 duration-[100ms] opacity-100"
                 
@@ -130,18 +130,24 @@ export default function () {
             }
            
             if (y_range > -510) {
-                blue1.className = 'absolute left-[221px] top-[100px]   transition-all ease-in   duration-[100ms] opacity-100'
+                setTimeout(function() {
+                blue1.className = 'absolute left-[221px] top-[60px]   transition-all ease-in   duration-[100ms] opacity-100'
+                },1000)
              }
 
             if (y_range > -730) {
-                blue1.className = 'absolute left-[221px] top-[150px]   transition-all ease-in    duration-[100ms] opacity-100'
+               
+                blue1.className = 'absolute left-[221px] top-[90px]   transition-all ease-in    duration-[500ms] opacity-0 hidden'
+               
                 setTimeout(function() {
                 grey.className = 'relative  -left-[545px] -top-[100px]  transition-all ease-in  -translate-y-[10px]  translate-x-[920px]  delay-100 duration-[100ms]'
                 // imggreen.className = "relative left-[1800px] top-[80px] transition-all translate-x-[400px]  ease-in   delay-150 duration-[100ms] opacity-100"
                 },3000)
             }
             if (y_range > -830) {
-                blue1.className = 'absolute left-[221px] top-[200px] -z-30  transition-all ease-in    duration-[100ms] opacity-0'
+               
+                // blue1.className = 'absolute left-[221px] top-[120px] -z-1  transition-all ease-in  delay-100 duration-[900ms] opacity-0'
+               
                 grey.className = 'relative  -left-[545px] -top-[100px]  transition-all ease-in    -translate-x-[1000px]  delay-300 duration-[1000ms]'
 
                 // setTimeout(function() {
@@ -221,19 +227,19 @@ export default function () {
              
                 setTimeout(function() {  
                 stone_1.className = " hidden"
-                },1000)
+                },100)
                 setTimeout(function() {  
                 stone_2.className = "hidden"
-                },3000)
+                },300)
                 setTimeout(function() {  
                 stone_3.className = "hidden"
-                },5000)
+                },500)
                 setTimeout(function() {  
                 stone_4.className = "hidden"
-                },7000)
+                },700)
                 setTimeout(function() {  
                 stone_5.className = "hidden"
-                },9000)
+                },900)
               
             }
             if (y_range > -1770) {
@@ -381,56 +387,25 @@ export default function () {
             }
                 
            
-
-
-
-
-
-
-
-
-
-
-            
-            // if (y_range > -450) {
-            //     grey.className = 'relative  left-[1600px] top-[70px] transition-all ease-in -translate-x-[655px]  delay-1000 duration-[2000ms]'
-            // }
-            // if (y_range > -500) {
-            //     green.className = 'relative  left-[1600px] top-[70px] transition-all ease-in translate-x-[655px]  delay-1000 duration-[2000ms]'
-            // }
-
-
-            // if (y_range > -108) {
-            //      document.getElementById('blue1').className = "hidden" 
-            // }
-
-
-
-
-            // if (y_range > -110) {
-            //     blue1.className = 'ml-602 transition-all  ease-in translate-y-[0px] delay-150 duration-300'
-            // but_one.className = "ml-370 transition-all  ease-in translate-y-[30px] delay-150 duration-[2000ms]" + " opacity-50"
-            // }
-            // if (y_range > -115) {
-            // blue1.className = 'ml-602 transition-all  ease-in translate-y-[0px] delay-150 duration-300'
-            // but_one.className = "ml-370 transition-all  ease-in translate-y-[30px] delay-150 duration-[2000ms]" + " opacity-100"
-            // }
-
-            // if (y_range > -278) {
-            //     blue1.className = 'ml-602 transition-all  ease-in translate-y-[20px] delay-150 duration-300'
-            // }
-
-
         })
+
+
+
+
+
+
+
+
+
+
+         
+
+
 
 
     }, [])
     function first() {
-        // console.log("<<<<<<<<<<<<<,,>>>>>>>>>>>>>")
-        // console.log("<<<<<<<<<<<<<,,>>>>>>>>>>>>>")
        
-            
-    
         var show_content_data = document.getElementById('show_content_data')
        
         var first_transtale = document.getElementById('first')
@@ -440,27 +415,25 @@ export default function () {
             show_content_data.className='transition-all block'
         }
         setTimeout(function() {
-        document.getElementById('combined_images1').className="relative -left-[80px] top-[30px] bottom-[3px]  w-fit  mx-auto transition-all -translate-y-[500px] ease-in delay-150 duration-[500ms]"
+        document.getElementById('combined_images1').className="relative left-[370px] top-[30px] bottom-[3px]   w-full pt-40  mx-auto transition-all -translate-y-[500px] ease-in delay-150 duration-[500ms]"
 
         console.log("first1", first_transtale.className="relative bottom-[500px] w-fit h-fit my-auto py-44 mx-auto px-2 transition-all ease-in delay-150 duration-[1000ms]")
         
         setshow_content(true)
     }, 1000)
    
-        // first1.className = 'w-fit h-fit my-auto py-44 mx-auto transition-all  ease-in -translate-y-[500px] delay-150 duration-[2000ms]'
+      
 
     }
  
-    // setTimeout(first,5000);
+    
     
 
     function second_fun() {
         var first1 = document.getElementById('first')
         console.log("first1", first1)
 
-        // first1.className = 'w-fit h-fit my-auto py-44 mx-auto transition-all  ease-in -translate-y-[500px] delay-150 duration-[1000ms]'
-        // combined_images1.className = 'relative w-fit  mx-auto relative bottom-[525px] transition-all ease-in-out  delay-700 duration-[2000ms]'
-        // as_far_back.className = 'ml-370 transition-all  ease-in  delay-150 duration-[3000ms]'
+       
 
     }
    
@@ -469,7 +442,7 @@ export default function () {
        
         <div className="w-full h-full  overflow-y-hidden  overflow-x-hidden  pb-[800px] bg-dustgrey" id="all_image_tag">
 
-            <div className="relative bottom-0 w-fit h-fit my-auto py-44 mx-auto px-2 transition-all ease-in delay-150 duration-[2000ms] " id="first">
+            <div className="relative static bottom-0 w-fit h-fit my-auto py-44 mx-auto px-2 transition-all ease-in delay-150 duration-[2000ms] " id="first">
                 <h1 className='text-sky-600 text-5xl font-extrabold mb-40'>How many slaves</h1>
                 <h1 className='text-sky-600 text-5xl font-extrabold ml-40'>work for you?</h1>
                 <div className=" w-fit mx-auto py-3 " id='first-transtale'>
@@ -480,12 +453,12 @@ export default function () {
 
             </div>
         <div className='w-full h-full hidden' id='show_content_data'>
-            <div className='w-full pt-40'>
-                <div className="relative bottom-[3px]  w-fit  mx-auto transition-all ease-in delay-150 duration-[20000ms]" id="combined_images1">
+            <div className='w-full pt-40' id="combined_images1">
+                <div className="relative bottom-[3px]    mx-auto transition-all ease-in delay-150 duration-[20000ms]">
                     <Image src="/hand_pick/as_far_back.png" width="445px" height="68px" />
 
                     <div className="absolute left-[221px] top-[30px]" id="blue1">
-                        <Image src="/hand_pick/blue 1.png" width="484px" height="887px" />
+                        <Image src="/hand_pick/blue 1.png" width="484px" height="880px" />
                     </div>
                 </div>
             </div>
@@ -493,7 +466,7 @@ export default function () {
 
               
 
-                    <div className="ml-370 -mt-355 opacity-25" id="but_one">
+                    <div className="ml-370 -mt-355 -z-4 opacity-25" id="but_one">
                         <Image src="/hand_pick/but_one.png" width="624px" height="76px" />
                     </div>
                     <div className="ml-370 mt-43 opacity-25" id="emancipation (1)">
