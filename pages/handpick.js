@@ -276,7 +276,7 @@ export default function () {
                 //     chain_disappear.className = "absolute -left-[1900px] -translate-x-full delay-1000 duration-[2000ms]"
                 //     },5000)
                 setTimeout(function() {
-                pointing_yellow.className = "relative top-[300px] left-[1800px] transition-all ease-in -translate-x-[850px] delay-500 duration-[1000ms]"
+                pointing_yellow.className = "relative top-[300px] left-[1800px] transition-all ease-in -translate-x-[850px] delay-500 duration-[900ms]"
                 },1000)
             }
             if (y_range > -2070) {
@@ -296,13 +296,13 @@ export default function () {
                 pointing_yellow.className = "relative top-[300px] left-[1800px] translate-x-[850px] delay-500 duration-[1000ms]"
                 setTimeout(function() {
                     orange_right_2.className = "relative top-[50px] left-[1800px] -translate-x-[400px] delay-100 duration-[800ms]"
-                },1000)
+                },3000)
             }
             // if (y_range > -2205) {
             //     orange_right_2.className = "relative top-[50px] left-[1800px] -translate-x-[1390px] delay-100 duration-[800ms]"
 
             // }
-            if (y_range > -2250) {
+            if (y_range > -2350) {
 
                 setTimeout(function() {
                 orange_right_2_direction.className = "absolute -top-[30px] left-[440px] translate-x-[600px] delay-300 duration-[100ms]"
@@ -315,7 +315,7 @@ export default function () {
                 
             }
 
-            if (y_range > -2350) {
+            if (y_range > -2425) {
              
                     orange_right_2.className = "relative top-[50px] left-[1800px] -translate-x-[1390px] delay-100 duration-[800ms]"
             }
