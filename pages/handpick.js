@@ -114,9 +114,36 @@ export default function Handpick () {
                
             }
            if (y_range > -320) {
+
                 setTimeout(function() {
-                blue1.className = 'absolute left-[221px] top-[30px]   transition-all ease-in    duration-[100ms] opacity-100'
-                 },3000)
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[0px]  transition-all ease-in  delay-500  duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[5px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-0'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[10px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[15px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[20px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[25px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[30px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[35px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[40px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[45px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[50px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[55px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[60px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[65px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[70px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[75px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[80px]   rotate-[90deg]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[85px]  rotate-[90deg] transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[90px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[95px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[100px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[105px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[110px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[115px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[120px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                 blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[125px]  transition-all ease-in  delay-1000   duration-[1000ms] opacity-100'
+                },3000)
+
                 
                 
                  green.className = "relative left-[1600px] transition-all translate-x-[660px]  ease-in   delay-1000 duration-[1800ms]"
@@ -125,23 +152,32 @@ export default function Handpick () {
             }
            
             if (y_range > -510) {
-                setTimeout(function() {
-                blue1.className = 'absolute left-[221px] top-[60px]   transition-all ease-in   duration-[100ms] opacity-100'
-                },1000)
+                
+                // blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[400px] delay-1000  transition-all ease-in   duration-[1000ms] opacity-100'
+                // setTimeout(function() {
+               
+                // },3000)
+              
              }
 
             if (y_range > -730) {
-               
-                blue1.className = 'absolute left-[221px] top-[90px]   transition-all ease-in    duration-[500ms] opacity-0 hidden'
-               
+
+                // setTimeout(function() {
+                blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[125px] opacity-0    transition-all ease-in  delay-1000   duration-[1000ms] '
+                // },1000)
+                // blue1.className = 'absolute left-[221px] top-[30px] translate-y-[0px] delay-1000  duration-[1000ms]   transition-all ease-in    opacity-0 hidden'
+
+                
                 setTimeout(function() {
                 grey.className = 'relative  -left-[545px] -top-[100px]  transition-all ease-in  -translate-y-[10px]  translate-x-[920px]  delay-100 duration-[100ms]'
-                },3000)
+                },1000)
             }
             if (y_range > -735) {
-               
-               
+                // setTimeout(function() {
+                blue1.className = 'absolute left-[221px] top-[30px]  translate-y-[0px] opacity-0  transition-all ease-in  delay-500   duration-[500ms]'
+                // },1000)
                 setTimeout(function() {
+
                 imggrey.className = 'absolute -left-[353px] top-[0px] -translate-x-[480px]'
                 },3000)
             }
@@ -456,7 +492,7 @@ export default function Handpick () {
 
               
 
-                    <div className="ml-370 -mt-355 -z-4 opacity-25" id="but_one">
+                    <div className="ml-370 -mt-355 -z-4 opacity-25 overflow-y-hidden" id="but_one">
                         <Image src="/hand_pick/but_one.png" alt="but_one" width="624px" height="76px" />
                     </div>
                     <div className="ml-370 mt-43 opacity-25" id="emancipation (1)">
