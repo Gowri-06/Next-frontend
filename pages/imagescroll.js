@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect } from 'react'
-export default function imageflow() {
+export default function Imageflow() {
 
     useEffect(() => {
 
@@ -106,7 +106,7 @@ export default function imageflow() {
             <div className='w-full h-50'>
             </div>
             <div className='-mt-10 ml-6'>
-            <Image className="rounded-full" src="/Stryds-Logo-Gradient.svg" width="80" height="80" />
+            <Image className="rounded-full" src="/Stryds-Logo-Gradient.svg" alt="Stryds-Logo-Gradient" width="80" height="80" />
             <p className="text-white text-medium ml-10 -mt-6"></p>
             </div> 
             </div>
@@ -141,11 +141,11 @@ export default function imageflow() {
                 <div id="image1" className='-mt-612 hover:transition-all ease-in  top-0 scroll-m-0'>
                     <div className='relative pt-2'>
                         <div className="ml-12">
-                        <Image className="rounded-[36px]" src="/second_image.jpg" width="340px" height="830px" />
+                        <Image className="rounded-[36px]" alt="second_image" src="/second_image.jpg" width="340px" height="830px" />
                         </div>
 
                         <div className="absolute top-0 w-480 ml-4">
-                            <Image className='' src="/first_image.png" width="400px" height="840px" />
+                            <Image className='' src="/first_image.png" alt="first_image" width="400px" height="840px" />
                         </div>
                     </div>
                 </div>
@@ -153,12 +153,12 @@ export default function imageflow() {
 
                 <div id="image2" className='ml-12 mt-500 transition-all  top-5 overflow:hidden'>
                     <div id='image_data2' className='relative pt-2'>
-                        <div classname="ml-36">
-                        <Image className="rounded-[36px]" src="/third_image.jpg" width="350px" height="830px"/>
+                        <div className="ml-36">
+                        <Image className="rounded-[36px]" alt="third_image" src="/third_image.jpg" width="350px" height="830px"/>
                         </div>
 
                         <div className="absolute top-0 w-480 -ml-6">
-                            <Image className='' src="/first_image.png" width="400px" height="840px"/>
+                            <Image className='' src="/first_image.png" alt="first_image" width="400px" height="840px"/>
                         </div>
                     </div>
                 </div>
@@ -167,11 +167,11 @@ export default function imageflow() {
                 <div id="image3" className='ml-12  transition-all -mt-612  top-0 overflow:hidden'>
                     <div className='relative  pt-2'>
                         <div className="ml-12">
-                        <Image className="rounded-[36px]" src="/fourth_image.jpg" width="340px" height="830px" />
+                        <Image className="rounded-[36px]" src="/fourth_image.jpg" alt="fourth_image" width="340px" height="830px" />
                         </div>
 
                         <div className="absolute top-0 w-480 ml-4">
-                            <Image className='' src="/first_image.png" width="400px" height="840px" />
+                            <Image className='' src="/first_image.png" alt="first_image" width="400px" height="840px" />
                         </div>
                     </div>
                 </div>

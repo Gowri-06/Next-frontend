@@ -184,7 +184,7 @@ export default function userfeedback({ data }) {
                            <div className=" ml-165 mt-100 border rounded-md shadow-2xl shadow-pink-300 w-490 h-320 bg-white">
                            </div>
                             <div className="ml-210 -mt-260">
-                              <Image className="rounded-full" src={a.thumbnailImage} width="100" height="100" />
+                              <Image className="rounded-full" alt="thumbnail" src={a.thumbnailImage} width="100" height="100" />
                             </div>
                             <div className="">
                               <h4 className="ml-357 -mt-114 font-bold text-xl text-blue-900">{a.author}</h4>
