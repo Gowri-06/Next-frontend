@@ -153,7 +153,7 @@ export default function Imageflow() {
 
                 <div id="image2" className='ml-12 mt-500 transition-all  top-5 overflow:hidden'>
                     <div id='image_data2' className='relative pt-2'>
-                        <div className="ml-36">
+                        <div className="ml-36 -ml-2">
                         <Image className="rounded-[36px]" alt="third_image" src="/third_image.jpg" width="350px" height="830px"/>
                         </div>
 
