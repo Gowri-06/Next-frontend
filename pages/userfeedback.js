@@ -84,67 +84,7 @@ export default function userfeedback({ data }) {
 
   return (
     <>
-      {/* <div className='bg-gradient-to-r from-pink-600 via-orange to-pink-600'> */}
-
-
-      {/* <div className="text-center">
-      <h3 className="font-bold text-2xl text-blue-900">For 300,000 users around the world,</h3>
-      <h3 className="font-bold text-2xl text-blue-900"> MailPoet makes email happen.</h3>
-      </div>
-
-      <div className='flex'>
-      <div>
-      <div className=" ml-165 mt-100 border rounded-md shadow-2xl shadow-pink-300 w-490 h-310 bg-white">
-      </div>
-      <div className="ml-210 -mt-260">
-      <Image className="rounded-full" src="/Katrin.webp" width="100" height="100"/>
-      </div>
-      <div className="">
-        <h4 className="ml-357 -mt-114 font-bold text-xl text-blue-900">Coen</h4>
-        <p className='ml-357 mt-40 w-288 text-blue-900 font-bold'>Travel blogger. Great job on the look and feel of the plugin. It’s a great free solution for small website owners like ourselves.</p>
-        <p className="ml-357 mt-40 text-orange font-bold">+ See newsletter example</p>
-      </div>
-      <ArrowCircleLeftIcon onClick={()=>{leftArrow()}} className=" ml-165 mt-65 w-12 h-12" />
-
-      </div>
-      
-
-
-      <div>
-      <div className=" ml-100 mt-100 border rounded-md shadow-2xl shadow-pink-300 w-490 h-310 bg-white">
-      </div>
-      <div className="ml-145 -mt-260">
-      <Image className="rounded-full" src="/francis.webp" width="100" height="100"/>
-      </div>
-      <div className="">
-        <h4 className="ml-292 -mt-114 font-bold text-xl text-blue-900">Coen</h4>
-        <p className='ml-292 mt-40 w-288 text-blue-900 font-bold'>Travel blogger. Great job on the look and feel of the plugin. It’s a great free solution for small website owners like ourselves.</p>
-        <p className="ml-292 mt-40 text-orange font-bold">+ See newsletter example</p>
-      </div>
-      <ArrowCircleRightIcon  className="w-12 h-12 mt-65 ml-543 " />
-      </div>
-      </div> */}
-
-
-
-      {/* <div className=" ml-665 flex">
-      <label className=" ">
-                <input type="radio" className="form-radio h-5 w-5 text-zinc-400 hover:bg-orange" />
-                
-      </label>
-      <label className="  ">
-                <input type="radio" className="form-radio h-5 w-5 text-zinc-400 hover:bg-orange" />
-                
-      </label>
-      <label className="  ">
-                <input type="radio" className="form-radio h-5 w-5 text-zinc-400 hover:bg-orange" />
-                
-      </label>
-      <label className="  ">
-                <input type="radio" className="form-radio h-5 w-5 text-zinc-400 hover:bg-orange" />
-                
-      </label>
-      </div> */}
+    
 
       <div>
         <div className="text-center">
@@ -195,9 +135,7 @@ export default function userfeedback({ data }) {
                         </div>
 
 
-                        {/* <p>{a.author}</p>
-                        <p>{a.content}</p>
-                        <p>{a.newsletter}</p> */}
+                       
                       </div>
                     })
                   }
@@ -217,7 +155,7 @@ export default function userfeedback({ data }) {
 
 
 
-      {/* </div> */}
+    
     </>
 
 

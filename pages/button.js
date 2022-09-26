@@ -5,17 +5,10 @@ export default function buttonEffects() {
    
     function callme(e){
         console.log("LLLLLLLLLLL",e.target)
-        // var tag_new = e.target
-        // tag_new.className = 'w-fit h-fit p-10 transition ease-in-out delay-150 bg-blue-500 -translate-y-1 scale-110 bg-indigo-500 duration-[2000ms] left-0 top-0'
-        // var tag_new2 = e.target 
-        // tag_new2.className = 'absolute w-0 group-hover:w-full transition-all ease-in duration-300 h-full bg-red-700 left-0 top-0'
         var id_span1 = document.getElementById('in')
         console.log("id_span1",id_span1)
         id_span1.className = 'absolute w-0 group-hover:w-full hover:transition-all ease-in duration-300  h-full bg-blue-700 left-0 top-0'
         
-        
-
-        // console.log("id_span1",e.target)
     }
     function callmeout(e){
         console.log("<<<<<<<<<<<<<,,>>>>>>>>>>>>>",e)

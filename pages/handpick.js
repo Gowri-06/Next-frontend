@@ -15,18 +15,18 @@ export default function Handpick () {
     useEffect(() => {
         var but_one = document.getElementById("but_one")
         console.log("but_one", but_one)
-        // but_one.className = "hidden"
+        
         var blue1 = document.getElementById("blue1")
         console.log("blue1",blue1)
-        // but_one.className = "hidden"
+       
         var emancipation = document.getElementById("emancipation (1)")
         console.log("but_one", emancipation)
-        // emancipation.className = "hidden"
+      
         var green = document.getElementById("green 11")
         console.log("but_one", green)
         var true_img = document.getElementById("true_img")
         console.log("true",true_img)
-        // green.className = "hidden"
+       
         document.addEventListener("scroll", function (e) {
 
             var all_image_tag = document.getElementById('all_image_tag')
@@ -93,13 +93,11 @@ export default function Handpick () {
             console.log("second_yellow_direction",second_yellow_direction)
 
             if (y_range > -101) {
-                // blue1.className = 'ml-602 transition-all  ease-in translate-y-[200px] delay-150 duration-300'
                
                 but_one.className = "ml-370 -mt-355 transition-all  ease-in  delay-500 duration-[2000ms] opacity-100"
             
           
                 emancipation.className = "ml-370 mt-43 transition-all  ease-in  delay-500 duration-[2000ms] opacity-100"
-                // blue1.className = 'absolute left-[221px] top-[30px]   transition-all ease-in  translate-y-[100px] delay-1000 duration-[300ms] opacity-100'
                 setTimeout(function() {
                 green.className = "relative left-[1600px]  transition-all -translate-x-[660px] -translate-y-[10px]  ease-in   delay-150 duration-[800ms]"
                 },1000)
@@ -120,13 +118,10 @@ export default function Handpick () {
                 blue1.className = 'absolute left-[221px] top-[30px]   transition-all ease-in    duration-[100ms] opacity-100'
                  },3000)
                 
-                 // imggreen.className = "relative left-[1800px] top-[80px] transition-all translate-x-[400px]  ease-in   delay-150 duration-[100ms] opacity-100"
                 
                  green.className = "relative left-[1600px] transition-all translate-x-[660px]  ease-in   delay-1000 duration-[1800ms]"
               
-                // setTimeout(function() {
-                // imggreen.className = "relative left-[1800px] top-[80px] transition-all translate-x-[7px]  ease-in    duration-[500ms] opacity-100"
-                // },3000)
+               
             }
            
             if (y_range > -510) {
@@ -141,26 +136,29 @@ export default function Handpick () {
                
                 setTimeout(function() {
                 grey.className = 'relative  -left-[545px] -top-[100px]  transition-all ease-in  -translate-y-[10px]  translate-x-[920px]  delay-100 duration-[100ms]'
-                // imggreen.className = "relative left-[1800px] top-[80px] transition-all translate-x-[400px]  ease-in   delay-150 duration-[100ms] opacity-100"
                 },3000)
             }
+            if (y_range > -735) {
+               
+               
+                setTimeout(function() {
+                imggrey.className = 'absolute -left-[353px] top-[0px] -translate-x-[480px]'
+                },3000)
+            }
+            if (y_range > -740) {
+               
+               
+               
+                imggrey.className = 'relative  -left-[545px] -top-[100px]  transition-all ease-in  translate-x-[0px]    delay-100 duration-[100ms]'
+                
+            }
             if (y_range > -830) {
-               
-                // blue1.className = 'absolute left-[221px] top-[120px] -z-1  transition-all ease-in  delay-100 duration-[900ms] opacity-0'
-               
-                grey.className = 'relative  -left-[545px] -top-[100px]  transition-all ease-in    -translate-x-[1000px]  delay-300 duration-[1000ms]'
 
-                // setTimeout(function() {
-                // imggrey.className = 'absolute -left-[353px] top-[0px]  transition-all ease-in  -translate-x-[600px]       delay-300 duration-[800ms] opacity-100'
-                // },2000)
+               grey.className = 'relative  -left-[545px] -top-[100px]  transition-all ease-in    -translate-x-[1000px]  delay-300 duration-[1000ms]'
+
             }
             if (y_range > -930) {
-                // setTimeout(function() {
-                // three_hands.className = 'relative left-[630px] -top-[75px] transition-all ease-in  translate-x-[750px] delay-150 duration-[1000ms]'
-                // },3000)
-                // setTimeout(function() {
-                    // imggrey.className = 'absolute -left-[353px] top-[0px] opacity-100 transition-all ease-in  translate-y-[0px]    delay-300 duration-[800ms] opacity-100'
-                //     },1000)
+               
               
             }
             if (y_range > -930) {
@@ -178,9 +176,7 @@ export default function Handpick () {
               
             }
             if (y_range > -1130) {
-                    // three_hands.className = 'relative left-[630px] -top-[75px] transition-all ease-in  translate-y-[10px] delay-1000 duration-[1500ms]'
 
-                    // three_hands_color.className = 'absolute transition-all ease-in   translate-y-[5px]  delay-0 duration-[100ms] opacity-0'
                   
                 orange_hands.className = 'relative left-[368px] top-[600px]  transition-all ease-in  -translate-y-[635px] delay-1000 duration-[1500ms]'
             }
@@ -272,9 +268,7 @@ export default function Handpick () {
 
             if (y_range > -1970) {
                   
-                // setTimeout(function() { 
-                //     chain_disappear.className = "absolute -left-[1900px] -translate-x-full delay-1000 duration-[2000ms]"
-                //     },5000)
+                
                 setTimeout(function() {
                 pointing_yellow.className = "relative top-[300px] left-[1800px] transition-all ease-in -translate-x-[850px] delay-500 duration-[900ms]"
                 },1000)
@@ -298,10 +292,7 @@ export default function Handpick () {
                     orange_right_2.className = "relative top-[50px] left-[1800px] -translate-x-[400px] delay-100 duration-[800ms]"
                 },3000)
             }
-            // if (y_range > -2205) {
-            //     orange_right_2.className = "relative top-[50px] left-[1800px] -translate-x-[1390px] delay-100 duration-[800ms]"
-
-            // }
+           
             if (y_range > -2350) {
 
                 setTimeout(function() {
@@ -351,9 +342,8 @@ export default function Handpick () {
             green_palm.className = "relative left-[1800px] top-[60px]  translate-x-[1000px]  opacity-100 delay-1000 duration-[1000ms]"
             }
            
-            // }
+            
             if (y_range > -2560) {
-                // green_palm_direction.className = "absolute left-[200px] top-[0px] translate-y-[0px] opacity-100 delay-100 duration-[100ms]"
 
                  setTimeout(function() {
                     to_earn_opa.className = "absolute left-[373px] top-[150px] opacity-0"
