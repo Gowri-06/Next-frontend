@@ -484,9 +484,9 @@ export default function Handpick () {
                         <Image src="/hand_pick/if_thats.png" alt="if_thats" width="459px" height="68px"/>
 
                         <div className="absolute" id="three_hands_color">
-                            <Image id="" src="/hand_pick/small_blue 1.png" alt="small_blue 1" width="147px" height="521px" />
-                            <Image id="" src="/hand_pick/small_magenta 1.png" alt="small_magenta 1" width="95px" height="521px" />
-                            <Image id="" src="/hand_pick/small_yellow 1.png" alt="small_yellow 1" width="134px" height="521px" />
+                            <Image id="" src="/hand_pick/small_blue 1.png" alt="small_blue1" width="147px" height="521px" />
+                            <Image id="" src="/hand_pick/small_magenta 1.png" alt="small_magenta1" width="95px" height="521px" />
+                            <Image id="" src="/hand_pick/small_yellow 1.png" alt="small_yellow1" width="134px" height="521px" />
                         </div>
                     </div>
 
@@ -494,7 +494,7 @@ export default function Handpick () {
                         <Image src="/hand_pick/actually.png" alt="actually" width="555px" height="47px" />
 
                         <div className="absolute -left-[490px] -top-[60px]" id="orange_left">
-                            <Image id="" src="/hand_pick/orange_left 2.png" alt="orange_left 2" width="507px" height="688px"/>
+                            <Image id="" src="/hand_pick/orange_left2.png" alt="orange_left 2" width="507px" height="688px"/>
                         </div>
                         <div className="absolute left-[540px] -top-[60px]" id="orange_right">
                             <Image id="" src="/hand_pick/orange_right.png" alt="orange_right" width="507px" height="688px"/>
@@ -599,7 +599,7 @@ export default function Handpick () {
                     <Image src="/hand_pick/together.png" alt="together" width="391px" height="111px"/>
                     </div>
                     <div className='absolute -left-[910px]' id="second_yellow_direction">
-                    <Image src="/hand_pick/yellow (1).png" alt="yellow (1)" width="918px" height="194px"/>
+                    <Image src="/hand_pick/yellow(1).png" alt="yellow (1)" width="918px" height="194px"/>
                     </div>
                     </div> 
 
