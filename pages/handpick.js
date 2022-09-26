@@ -458,7 +458,7 @@ export default function Handpick () {
                     <Image src="/hand_pick/as_far_back.png" alt="as_far_back" width="445px" height="68px" />
 
                     <div className="absolute left-[221px] top-[30px]" id="blue1">
-                        <Image src="/hand_pick/blue 1.png" alt="blue 1" width="484px" height="880px" />
+                        <Image src="/hand_pick/blue1.png" alt="blue 1" width="484px" height="880px" />
                     </div>
                 </div>
             </div>
