@@ -447,7 +447,7 @@ export default function Handpick () {
                 <h1 className='text-sky-600 text-5xl font-extrabold ml-40'>work for you?</h1>
                 <div className=" w-fit mx-auto py-3 " id='first-transtale'>
                     <Image onClick={first} src="/hand_pick/what.png" alt="what" width="111px" height="100px" />
-                    <Image src="/hand_pick/separator (1).png" alt="separator" width="38px" height="100px" />
+                    <Image src="/hand_pick/separator(1).png" alt="separator" width="38px" height="100px" />
                     <Image src="/hand_pick/find_out.png" alt="find_out" width="86px" height="100px" />
                 </div>
 
