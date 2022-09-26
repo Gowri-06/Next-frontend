@@ -470,11 +470,11 @@ export default function Handpick () {
                         <Image src="/hand_pick/but_one.png" alt="but_one" width="624px" height="76px" />
                     </div>
                     <div className="ml-370 mt-43 opacity-25" id="emancipation (1)">
-                        <Image src="/hand_pick/emancipation (1).png" alt="emancipation (1)" width="345px" height="25px" />
+                        <Image src="/hand_pick/emancipation(1).png" alt="emancipation (1)" width="345px" height="25px" />
                     </div>
 
                     <div className="relative  left-[1600px] top-[70px]" id="green 11">
-                        <Image id="imggreen" src="/hand_pick/green 11.png" alt="green 11" width="822px" height="392px" />
+                        <Image id="imggreen" src="/hand_pick/green11.png" alt="green 11" width="822px" height="392px" />
 
                         <div className="absolute -left-[570px] top-[52px]" id="">
                             <Image src="/hand_pick/thats_what.png" alt="thats_what" width="596px" height="105px" />
@@ -485,7 +485,7 @@ export default function Handpick () {
                         <Image src="/hand_pick/but_buying.png" alt="but_buying" width="531px" height="25px" />
 
                         <div className="absolute -left-[353px] top-[0px]" id="">
-                            <Image id="imggrey" src="/hand_pick/grey 1.png" alt="grey 1" width="507px" height="521px" />
+                            <Image id="imggrey" src="/hand_pick/grey1.png" alt="grey 1" width="507px" height="521px" />
                         </div>
 
                     </div>
