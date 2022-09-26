@@ -28,7 +28,7 @@ export default function Transition() {
                         {/* btn relative inline-flex items-center justify-start overflow-hidden transition-all rounded hover:bg-white group */}
                         <span className="w-300 h-0 rounded-br-3xl bg-blue-thick absolute top-0 left-0  ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1"></span>  
                         <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-white z-10">
-                        < DesktopComputerIcon className="ml-114 w-300 h-12 w-12 text-white   mb-3 mt-2"/>
+                        < DesktopComputerIcon className="ml-110 w-300 h-12 w-12 text-white   mb-3 mt-2"/>
                         <p className="ml-3  text-lg mb-6 font-bold text-white text-center">Largest Connector Library</p> 
                         <p className="mb-12 w-288 mt-18 text-lg text-white font-normal text-center">Ever-growing library of 330+</p>
                         <p className="-mt-12 mb-12 w-288 text-lg text-white font-normal text-center">connectors and data tools<br/> that can be up</p>
